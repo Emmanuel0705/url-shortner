@@ -9,6 +9,9 @@ A simple url shortner API
 - Mongoose
 - ShortId
 - valid-url
+- mocha
+- supertest
+- chai
 
 ## endpoints
 
@@ -23,3 +26,13 @@ A simple url shortner API
     "createdAt": "2021-02-25T10:44:49.938Z",
 
 }
+
+## TEST
+
+### command
+
+```bash
+npm run test
+```
+
+run above command to check if test are passing
