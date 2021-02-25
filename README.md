@@ -17,6 +17,7 @@ A simple url shortner API
 
 - Base Url - https://myownurl.herokuapp.com/
 - url-shorten endpoint https://myownurl.herokuapp.com/api/shorten
+  - request type - POST
   - body parameter - {longUrl:"url to shorten"}
   - response example - {
     "id": "60377fc040d5300015bc57dc",
